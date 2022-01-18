@@ -1,0 +1,9 @@
+.Logo
+{
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.Logo:hover
+{
+    transform: scale(1.2);
+}
