@@ -1,0 +1,11 @@
+.Menu
+{
+    font-size: 1.3em;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.Menu:hover
+{
+    transform: scale(1.2);
+}

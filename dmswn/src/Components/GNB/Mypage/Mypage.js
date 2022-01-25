@@ -10,7 +10,7 @@ function Mypage(props) {
     window.location.href = '/Mypage/' + props.id;
   }
   return (
-    <div onClick = {Home} className="Myapge">
+    <div onClick = {Home} className="Mypage">
         Mypage
     </div>
   );
