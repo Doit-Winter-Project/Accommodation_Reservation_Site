@@ -1,0 +1,30 @@
+.filter-block {
+    width: calc(100% - 24px);
+    height: 44px;
+    position: relative;
+    top: 50%;
+    left: 24px;
+    /* float: right; */
+    transform: translateY(-50%);
+
+    /* font common settings */
+    font-family: "Noto Sans KR", sans-serif;
+    color: black;
+}
+
+.filter-block span {
+    position: absolute;
+}
+
+.filter-block .filter-title {
+    font-weight: 700;
+    font-size: 12px;
+    top: 0;
+}
+
+.filter-block .filter-selected {
+    font-weight: 400;
+    font-size: 16px;
+    bottom: 0;
+    color: #4f4f4f;
+}
