@@ -19,9 +19,9 @@ function Personnel(props){
       <div onClick = {() => setNumber(number+1)}>
           <Plus/>
       </div>
-      <div id = "justKidding">
+      {/* <div id = "justKidding">
         장은주 바보
-      </div>
+      </div> */}
     </div>
   )
 }
