@@ -15,4 +15,7 @@
   - 입력(설정)이 된지 안된지 구분해주기 위해서
   - 검색결과 페이지에서 입력한 값들이 유지될 수 있도록
 
+---
+1차 commit(1/27 GNB, Searchbar UI)
+
 ![image](https://user-images.githubusercontent.com/81519021/151359491-e47f6119-b660-4fc6-941d-b4881933b998.png)
