@@ -1,0 +1,51 @@
+.global-navigation {
+    width: 100%;
+    height: 94px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+
+    /* font common settings */
+    font-family: "Noto Sans KR", sans-serif;
+    color: black;
+}
+
+.global-navigation .logo {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46.34px;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+}
+
+.global-navigation .search-area-wrap {
+    width: 920px;
+    max-width: 80%;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* services-area */
+
+.services-area {
+    width: 186px;
+    height: 23px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 24px;
+}
+
+.services-area .service-text {
+    font-weight: 400;
+    font-size: 16px;
+}

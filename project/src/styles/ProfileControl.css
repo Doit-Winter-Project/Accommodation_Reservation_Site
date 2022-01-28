@@ -1,0 +1,39 @@
+.profile-control {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.profile-control .menu-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+.profile-control .user-icon-wrap {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    float: right;
+    transform: translateY(-50%);
+    border-radius: 16px;
+    background-color: #828282;   
+}
+
+.profile-control .user-icon-wrap .user-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

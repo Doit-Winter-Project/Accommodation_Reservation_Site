@@ -1,0 +1,63 @@
+.filter-block {
+    width: calc(100% - 24px);
+    height: 44px;
+    position: relative;
+    top: 50%;
+    left: 24px;
+    /* float: right; */
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    /* font common settings */
+    font-family: "Noto Sans KR", sans-serif;
+    color: black;
+}
+
+.filter-block span {
+    position: absolute;
+}
+
+.filter-block .filter-title {
+    font-weight: 700;
+    font-size: 12px;
+    top: 0;
+}
+
+.filter-block .filter-selected {
+    font-weight: 400;
+    font-size: 16px;
+    bottom: 0;
+    color: #4f4f4f;
+
+    animation-duration: .15s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0, 1, 1, 1);
+}
+
+.filter-block .filter-selected.selected-display {
+    animation-name: selected-display;
+}
+
+.filter-block .filter-selected.selected-undisplay {
+    animation-name: selected-undisplay;
+}
+
+@keyframes selected-display {
+    from {
+        opacity: 0;
+        bottom: -10px;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes selected-undisplay {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        bottom: 10px;
+    }
+}
