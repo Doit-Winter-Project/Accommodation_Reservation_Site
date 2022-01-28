@@ -2,6 +2,9 @@ import { useState, useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { RecoilRoot } from "recoil";
 
+// css
+import "./styles/App.css";
+
 // component (global)
 import GlobalNavigationBar from "./components/GlobalNavigationBar";
 

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 // css
-import "../../css/ProfileControl.css";
+import "../../styles/ProfileControl.css";
 
 // img
 import menuIcon from "../../assets/icons/menu.png";

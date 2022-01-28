@@ -22,6 +22,15 @@
     transform: translateY(-50%);
 }
 
+.global-navigation .search-area-wrap {
+    width: 920px;
+    max-width: 80%;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
 /* services-area */
 
 .services-area {

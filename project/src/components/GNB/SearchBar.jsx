@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 // css
-import "../../css/SearchBar.css";
+import "../../styles/SearchBar.css";
 
 // component
 import FilterArea from '../FilterArea';

@@ -11,7 +11,7 @@
             ㄴ FilterSelector[ type="check-out" ]
             ㄴ FilterSelector[ type="price" ]
             ㄴ FilterSelector[ type="personnel" ]
-        ㄴ PropsControl
+        ㄴ FilterControl
                 ㄴ Calender
                 ㄴ Price
                 ㄴ Personnel

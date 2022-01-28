@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 
 // css
-import "../css/GlobalNavigationBar.css";
+import "../styles/GlobalNavigationBar.css";
 
 // components
 import SearchBar from "./GNB/SearchBar";
 import ProfileControl from "./GNB/ProfileControl";
+import FilterControl from './GNB/FilterControl';
 
 function Services() {
     return <div className="services-area">
@@ -20,7 +21,10 @@ function GlobalNavigationBar({  }) {
     return <nav className="global-navigation">
         <span className="logo">LOGO</span>
         <Services/>
-        <SearchBar/>
+        <div className="search-area-wrap">
+            <SearchBar/>
+            <FilterControl/>
+        </div>
         <ProfileControl/>
     </nav>;
 }
