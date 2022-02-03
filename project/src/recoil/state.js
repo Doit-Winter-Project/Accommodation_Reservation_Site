@@ -48,7 +48,7 @@ export default new function() {
     
     this.priceState = atom({
         key: "priceState",
-        default: { from: -1, to: -1, init: true }
+        default: { start: 0, end: 0, onchange: false, init: true }
     });
     
     // state: personnel

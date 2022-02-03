@@ -9,6 +9,7 @@ import states from "../../recoil/state";
 
 // component
 import Calender from './FilterControl/Calender';
+import Price from './FilterControl/Price';
 
 function FilterControl() {
 
@@ -65,6 +66,9 @@ function FilterControl() {
                 { ( filterCtrlMode?.type === "check-date" ) && <>
                     <Calender type="check-in"/>
                     <Calender type="check-out"/>
+                </> }
+                { ( filterCtrlMode?.type === "price" ) && <>
+                    <Price/>
                 </> }
             </div>
         </> ) }

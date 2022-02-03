@@ -7,6 +7,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.2",
+    "axios": "^0.25.0",
     "postcss-autoreset": "^3.0.4",
     "postcss-js": "^4.0.0",
     "postcss-nested": "^5.0.6",

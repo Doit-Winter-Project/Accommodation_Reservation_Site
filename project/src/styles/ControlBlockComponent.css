@@ -1,0 +1,21 @@
+.control-block-component {
+    width: 80%;
+    height: 85%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.control-block-component .block-title {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #010101;
+    
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
