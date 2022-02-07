@@ -1,0 +1,15 @@
+.Mypage
+{
+    font-size: 1.3em;
+    float: left;
+    margin-left: 1%;
+    margin-top: 7%;
+}
+.MypageImg{
+    height: 40%;
+    width: 40%;
+}
+.Mypage:hover
+{
+    transform: scale(1.2);
+}

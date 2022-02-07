@@ -1,0 +1,12 @@
+.Minus{
+    float: left;
+    border: 0.3px solid gray;
+    color: gray;
+    border-radius: 50%;
+    width: 0.7vw;
+    height: 0.7vw;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-bottom : 65%;
+}
+
