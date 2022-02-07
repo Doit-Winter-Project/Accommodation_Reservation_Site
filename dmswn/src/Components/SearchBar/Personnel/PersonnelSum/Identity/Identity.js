@@ -7,9 +7,12 @@ import { Link, Route } from 'react-router-dom';
 function Identity(props) {
   return (
     <div className="Identity">
+      <div id = "IdentityIdentity">
         {props.Identity}
-        <br/>
+      </div>
+      <div id = "IdentityScope">
         {props.scope}
+      </div>       
     </div>
   );
 }

@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react';
 import Identity from './PersonnelSum/Identity/Identity';
-import Plus from './PersonnelSum/Plus/Plus';
-import Minus from './PersonnelSum/Minus/Minus';
 import './Personnel.css';
+import Sign from './PersonnelSum/Sign/Sign';
 import { Link, Route } from 'react-router-dom';
 
 
@@ -11,17 +10,20 @@ function Personnel(props){
   const [number, setNumber] = useState(0)
   return (
     <div className="PersonnelSum">
-      <Identity Identity = '{props.Identity}' scope = '{props.scope} '/>
-      <div onClick = {() => setNumber(number-1)}>
-          <Minus/>
+      <div id = "PersonnelFront">
+        <Identity Identity = {props.Identity} scope = {props.scope}/>
       </div>
-      {number}
-      <div onClick = {() => setNumber(number+1)}>
-          <Plus/>
+      <div id = "PersonnelNumber">
+        <div className= "PersonnelNumber" onClick = {() => setNumber(number-1)}>
+          <Sign sign = "-"/>
+        </div>
+        <div className= "PersonnelNumber" id ="PersonnelNum">
+          {number}
+        </div> 
+        <div className= "PersonnelNumber" onClick = {() => setNumber(number+1)}>
+          <Sign sign = "+"/>
+        </div>
       </div>
-      {/* <div id = "justKidding">
-        장은주 바보
-      </div> */}
     </div>
   )
 }

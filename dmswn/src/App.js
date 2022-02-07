@@ -1,14 +1,20 @@
 
 import './App.css';
-
+import Background from './background.png';
 import GNB from './Components/GNB/GNB';
-import Personnel from './Components/SearchBar/Personnel/Personnel';
-//import PersonnelSum from './Components/SearchBar/Personnel/PersonnelSum/PersonnelSum'
+import SearchBar from './Components/SearchBar/SearchBar';
+
 function App() {
   return (
     <div className="App">
-      <GNB/>
-      <Personnel/>
+      <img className = "BackGroundImg" src={Background} alt=""/>
+      <div className = "front">
+        <GNB/>
+        <div id = "PageSearchBar">
+        <SearchBar/>
+        </div>
+      </div>
+      
     </div>
   );
 }

@@ -3,5 +3,16 @@
     height: 3vw;
     width: 90%;
     margin-left: 5%;
-    border: 1px solid black;
+}
+.GNBMenu{
+    height: 100%;
+    width: 20%;
+    float: left;
+    margin-left: 35%;
+}
+.GNBMypage{
+    height: 100%;
+    width: 10%;
+    float: left;
+    margin-left: 29.4%;
 }

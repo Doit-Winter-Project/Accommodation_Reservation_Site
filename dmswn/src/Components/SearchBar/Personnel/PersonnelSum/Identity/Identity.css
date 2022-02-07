@@ -2,3 +2,12 @@
     float: left;
 }
 
+#IdentityIdentity{
+    font-size: 1em;
+}
+
+#IdentityScope{
+    margin-top: 3%;
+    font-size: 0.7em;
+    color: gray;
+}

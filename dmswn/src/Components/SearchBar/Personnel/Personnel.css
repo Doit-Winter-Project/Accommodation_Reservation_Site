@@ -7,3 +7,25 @@
         font-size: 100px;
     }
 } */
+
+.PersonnelSum{
+}
+
+#PersonnelNumber{
+    padding-left: 60%;
+}
+
+#PersonnelNum{
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+#PersonnelFront{
+    margin-left: 3em;
+}
+
+.PersonnelNumber{
+    float: left;
+    margin-left: 13%;
+}
+
