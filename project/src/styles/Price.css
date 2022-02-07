@@ -1,0 +1,104 @@
+.price-block {
+    /* background-color: gray; */
+}
+
+.price-block .statistic-brief-area {
+    width: fit-content;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333;
+}
+
+.price-block .statistic-brief-area .statistic-average {
+    width: 100%;
+    height: fit-content;
+    white-space: nowrap;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.price-block .distribute-graph {
+    width: 98%;
+    height: calc( 100% - 130px );
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* PriceInput */
+
+.price-input-wrap {
+    width: 100%;
+    height: 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.price-input-wrap .price-input {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.price-input-wrap .price-input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* PriceInput */
+
+
+
+/* animate option */
+
+.price-animate {
+    animation-duration: .3s;
+    animation-timing-function: cubic-bezier(0, 1, 1, 1);
+}
+
+.price-fadeout {
+    animation-name: price-fadeout;
+    animation-fill-mode: both;
+}
+
+.price-fadein {
+    animation-name: price-fadein;
+}
+
+@keyframes price-fadein {
+    from {
+        opacity: 0;
+        bottom: -10px;    
+    }
+    to {
+    }
+}
+
+@keyframes price-fadeout {
+    from {
+        
+    }
+    to {
+        opacity: 0;
+        bottom: -10px;    
+    }
+}

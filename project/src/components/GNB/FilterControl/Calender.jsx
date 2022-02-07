@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 
 // css
 import "../../../styles/Calender.css";
+import "../../../styles/ControlBlockComponent.css";
 
 // recoil
 import { useRecoilState, useRecoilValue } from 'recoil';
@@ -138,7 +139,7 @@ function Calender({ type }) {
     }
 
 
-    return <div className="calender-block">
+    return <div className="calender-block control-block-component">
         <div className="top-area">
             <svg className="arrows leftside-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" onClick={ () => setMonth("down") } style={{
                 opacity: ( ( type === "check-in" ) && ( ( new Date().getMonth + 1 ) >= m ) ) && "none"
